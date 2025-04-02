@@ -1,0 +1,374 @@
+html, body {
+    margin: 0;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #c9b977;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: white;
+    padding: 10px;
+    padding: 10px 20px 0px;
+   
+}
+
+.header {
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    gap: 190px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #c9b977;
+    min-height: 150px;
+}
+
+.logo img {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    max-width: 180px;
+    border-radius: 50%;
+    border: 2px solid #494803;
+}
+
+.title h1 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.title p {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 5px auto;
+    padding: 12px;
+    background-color: white; 
+    color: #494803;
+    text-decoration: underline;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #494803; /* Efeito hover */
+    color: white
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 0;
+    color: #494803;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #c9b977;
+    color: white;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.table th, .table td {
+    padding: 10px; 
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.service img {
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.socialMedia img {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+    
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 14px;
+    font-style: bold;
+    color: white;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.contentSobre {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.contentSobre h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin: 0;
+    padding: 20px;
+    color: #494803;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.contentSobre p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 20px;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.contentServices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Estilo para a tabela */
+.tableServices {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); 
+    overflow: hidden; 
+}
+
+/* Estilo para o cabeçalho */
+.tableServices thead th {
+    background-color: #c9b977; 
+    color: white; 
+    text-transform: uppercase; 
+    font-weight: bold;
+    padding: 15px; 
+}
+
+/* Estilo para os dados */
+.tableServices tbody td {
+    padding: 15px; 
+    text-align: center; 
+    color: #555; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.tableServices tbody tr:hover {
+    background-color: #f1f1f1; 
+}
+
+.tableServices tbody td:first-child {
+    font-weight: bold; 
+}
+
+.contentServices h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 15px;
+    color: #494803;
+    font-family: 'Arial', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.contentContact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Estilo geral do container principal */
+.containerContact {
+    width: 100%; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: Arial, sans-serif; 
+}
+
+/* Estilo do título */
+.contentContact h2 {
+    text-align: center; 
+    font-size: 28px; 
+    color: #494803; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+}
+
+/* Estilo das informações de contato */
+.contactInfo p {
+    font-size: 16px; 
+    color: #555; 
+    margin: 5px 0; 
+    line-height: 1.6; 
+}
+
+/* Estilo do Google Maps */
+.map iframe {
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do formulário */
+.contactForm {
+    margin-top: 20px; 
+}
+
+.formGroup {
+    margin-bottom: 15px; 
+}
+
+.formGroup label {
+    display: block; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #494803; 
+    margin-bottom: 5px; 
+}
+
+formGroup input,
+.formGroup textarea {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    box-sizing: border-box;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+    border-color: #c9b977; 
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 4px rgba(201, 185, 119, 0.6); /* Adiciona um efeito de brilho */
+}
+
+.formGroup textarea {
+    resize: none; /* Remove a possibilidade de redimensionar o campo */
+}
+
+.formButtons {
+    text-align: center; /* Centraliza os botões */
+}
+
+.formButtons button {
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho do texto */
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Aparece o cursor de clique */
+    background-color: #494803; /* Cor do botão */
+    color: #fff; /* Texto branco */
+    margin: 5px; /* Espaçamento entre os botões */
+    transition: background-color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.formButtons button:hover {
+    background-color: #c9b977; /* Cor mais clara ao passar o mouse */
+    color: #000; /* Cor do texto muda para preto */
+}
